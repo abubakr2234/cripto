@@ -50,7 +50,7 @@ const Converted = ({ data, onConverted }) => {
 
     }, [exchange, transactions]);
 
-    console.log('transX', transactions);
+    console.log('trans', transactions);
 
     
 
