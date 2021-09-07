@@ -43,7 +43,7 @@ const Converted = ({ data, onConverted }) => {
         const payload = {
             ...exchange,
             name,
-            id: generateId('tranX-id_'),
+            id: generateId('tran-id_'),
         }
 
         setTransactions([...transactions, payload]);
